@@ -1,0 +1,7 @@
+.idea/*
+*.iml
+.DS_STORE
+js/keys.js
+public/main.js
+*.map
+node_modules
