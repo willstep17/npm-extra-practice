@@ -1,4 +1,7 @@
 const $ = require('jquery');
+const sayHello = require('./sayHello.js');
+
+sayHello();
 
 (function(){
 "use strict";
@@ -12,7 +15,6 @@ const $ = require('jquery');
 
         const sayHello = () => console.log("Hello");
 
-        sayHello();
 
 
     });
