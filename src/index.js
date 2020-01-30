@@ -1,14 +1,18 @@
-(function(){
-"use strict";
-    document.ready(function(){
-
-
-
 const $ = require('jquery');
 
-const sayHello = () => console.log("Hello");
+(function(){
+"use strict";
+    $(document).ready(function(){
 
-sayHello();
+        const mainHeader = $('#main-header');
+
+        setInterval(function(){
+            mainHeader.toggleClass("red");
+        }, 1000);
+
+        const sayHello = () => console.log("Hello");
+
+        sayHello();
 
 
     });
